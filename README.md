@@ -1,5 +1,8 @@
 Creating an app with Rails API backend VueJS frontend, handling CORS and pushing a working app to Heroku.
 
+Working demo app: https://limitless-inlet-24308.herokuapp.com/#/contacts
+
+
 Create Rails API backend.
 
 Because our Rails app and VueJS app will be hosted on two separate servers, one of the first things we’ll need to handle is Cross-Origin Resource Sharing, (or CORS). Luckily Rails makes this easy to do. Under Config>Initializers you’ll find cors.rb. Comment the existing text out, and add your domain in the Origin and Resource. Add the rack-cors Gem.
