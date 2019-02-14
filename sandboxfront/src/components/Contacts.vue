@@ -18,7 +18,7 @@ export default {
   }
  },
  created() {
-  axios.get('http://localhost:3000/contacts') 
+  axios.get('https://limitless-inlet-24308.herokuapp.com/contacts') 
   .then(response => {
    this.contacts = response.data
   })
