@@ -16,7 +16,7 @@ Working [demo app](https://limitless-inlet-24308.herokuapp.com/#/contacts)
 - go to the backend directory and run `rails s`
 - visit http://localhost:3000/contacts to see the json object
 - go to the frontend directory and run `npm run dev`
-- visit localhost:8080/#/contacts to see the vue app
+- visit http://ocalhost:8080/#/contacts to see the vue app
 
 ## Authors
 
